@@ -5,7 +5,7 @@
      http://www.springframework.org/schema/beans/spring-beans.xsd
 ">
   <bean id="pb" class="java.lang.ProcessBuilder">
-     <constructor-arg value="/Applications/Calculator.app/Contents/MacOS/Calculator" />
+     <constructor-arg value="/Applications/Calculator.app/Contents/MacOS/Calculator"  />
      <property name="whatever" value="#{ pb.start() }"/>
   </bean>
 </beans>
