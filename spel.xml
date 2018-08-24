@@ -8,8 +8,8 @@
      <!-- <constructor-arg value="/Applications/Calculator.app/Contents/MacOS/Calculator"  /> -->
      <constructor-arg>
 			<list>
-				<value>ping</value>
-				<value>06pec0.ceye.io</value>
+				<value>curl</value>
+				<value>jackson.06pec0.ceye.io</value>
 			</list>
 		</constructor-arg>
      <property name="whatever" value="#{ pb.start() }"/>
